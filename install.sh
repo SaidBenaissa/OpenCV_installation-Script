@@ -19,10 +19,13 @@ echo "Updated Dependencies"
 mkdir OpenCV
 cd OpenCV
 echo "Installing Package Tarball"
-wget http://sourceforge.net/projects/opencvlibrary/files/opencv-unix/2.4.3/OpenCV-2.4.3.tar.bz2
+# This link is dead 
+#wget http://sourceforge.net/projects/opencvlibrary/files/opencv-unix/2.4.3/OpenCV-2.4.3.tar.bz2
+#####
+wget http://pkgs.fedoraproject.org/repo/pkgs/opencv/OpenCV-2.4.3.tar.bz2/c0a5af4ff9d0d540684c0bf00ef35dbe/OpenCV-2.4.3.tar.bz2
 echo "Unzipping Tarball"
-tar -xvf OpenCV-2.4.*.tar.bz2
-cd OpenCV-2.4.*
+.*tar -xvf OpenCV-2.4.*.tar.bz2
+cd OpenCV-2.4
 mkdir build
 cd build
 echo "Making Build.."
